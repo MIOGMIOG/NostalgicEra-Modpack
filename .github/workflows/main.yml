@@ -16,11 +16,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       
-      - name: Upload Client
+      - name: Upload Client (MultiMC/PolyMC)
         uses: actions/upload-artifact@v3
         with:
           name: Nostalgic Era Modpack - Client
-          path: Nostalgic Era Modpack - Client/
+          path: Nostalgic Era Modpack - Client MultiMC-PolyMC/
+      
+      - name: Upload Client (Technicpack)
+        uses: actions/upload-artifact@v3
+        with:
+          name: NostalgicEraModpack-Client-Technicpack
+          path: Nostalgic Era Modpack - Client Technicpack/
       
       - name: Upload Server
         uses: actions/upload-artifact@v3

@@ -1,0 +1,10 @@
+#Changelog A Legendary Tekkit 1.0.1
+#You can also see the changelog.txt file within the modpack
+
+#Recipes
+-Deployer from Tubestuff can now be crafted via Deployer from Blue Power and vice versa
+-Added recipes for Tubestuff Alloy Ingot Blocks
+-Added Blaze Rod, Iron Ingot and Obsidian recipes with Philosopher Stone
+
+#EMC
+-Added EMC value for Flax Seed

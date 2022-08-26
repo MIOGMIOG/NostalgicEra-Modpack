@@ -1,0 +1,29 @@
+name: Upload pack
+
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Upload Client
+        uses: actions/upload-artifact@v3
+        with:
+          name: Nostalgic Era Modpack - Client
+          path: Nostalgic Era Modpack - Client/
+      
+      - name: Upload Server
+        uses: actions/upload-artifact@v3
+        with:
+          name: Nostalgic Era Modpack - Server
+          path: Nostalgic Era Modpack - Server/

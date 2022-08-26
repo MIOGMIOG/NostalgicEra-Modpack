@@ -137,7 +137,6 @@
             "alignment" : "bottom_left"
         }
     },
-    //"images" : "minecraft:textures/gui/title/background/panorama_%c.png",
     "other":
     { 
         "background":

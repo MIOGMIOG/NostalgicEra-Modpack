@@ -101,6 +101,36 @@
                 "gui" : "languages"
             }
         },
+
+        "modupdates":
+        {
+            "text" : "",
+            "posX" : -103,
+            "posY" : 20,
+            "width" : 16,
+            "height" : 16,
+            "alignment" : "center",
+            "texture" : "versionchecker:textures/gui/notify.png",
+            "tooltip" : "Mod updates",
+            "wrappedButton" : 404
+        },
+
+        "technicpack":
+        {
+            "text" : "",
+            "posX" : -105,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "mainmenu:textures/technicpackicon.png",
+            "tooltip" : "Visit modpack page on Technicpack.net",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.technicpack.net/modpack/nostalgic-era-modpack.1938476"
+            }
+        },
         
         "refresh":
         {
